@@ -1,0 +1,91 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ==========================
+# Virtual environments
+# ==========================
+.venv/
+venv/
+env/
+
+# ==========================
+# Environment variables and secrets
+# ==========================
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ==========================
+# Code quality
+# ==========================
+.mypy_cache/
+.ruff_cache/
+
+# ==========================
+# IDE and editors
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Operating system
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs and temporary files
+# ==========================
+*.log
+logs/
+tmp/
+temp/
+
+# ==========================
+# Local databases
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================
+# Machine learning artifacts
+# ==========================
+mlruns/
+mlartifacts/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# ==========================
+# Local infrastructure data
+# ==========================
+postgres_data/
+redis_data/
+
+# ==========================
+# Notebooks
+# ==========================
+.ipynb_checkpoints/
